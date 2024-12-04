@@ -1,0 +1,10 @@
+/*
+ארואד רחאל 213481963
+*/
+CHIP And3{
+IN in1,in2,in3;
+OUT out;
+PARTS:
+And (a=in1, b=in2, out=x);
+And (a=in3, b=x, out=out);
+}
